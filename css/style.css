@@ -6,9 +6,68 @@
  * Made By MaterializeCSS.com
  */
 
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.brand-logo{
+  font-family: 'Poiret One', cursive;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+.nav-links {
+  font-family: 'Poiret One', cursive;
+}
+
+.sfondo {
+  background-image: url("sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.button{
+  color: #f06292;
+}
+
+.iconacorpo{
+  font-size: 50px;
+  color: #f06292;
+  padding-top: 30px;
+}
+
+.corpo-descrizione {
+  padding-top: 30px;
+  color: #black;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #f06292;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 20px;
+}
+
+.social-icon:hover {
+  color: #E7DFC6;
 }
